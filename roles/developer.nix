@@ -2,13 +2,15 @@
 
 {
   imports = [
+    ../programs/anyenv/sources.nix
     ../programs/base16-shell/sources.nix
+    ../programs/brew/sources.nix
     ../programs/fish/sources.nix
-    ../programs/nvim/sources.nix
-    ../programs/tmux/sources.nix
     ../programs/iterm/sources.nix
     ../programs/karabiner/sources.nix
-    ../programs/brew/sources.nix
+    ../programs/jrnl/sources.nix
+    ../programs/nvim/sources.nix
+    ../programs/tmux/sources.nix
   ];
 
   programs.fish = lib.attrsets.recursiveUpdate(import ../programs/fish/default.nix) {};
@@ -17,6 +19,7 @@
 
   home.packages = with pkgs; [
     ## TOOL
+    any-nix-shell
     broot
     exa
     jq
@@ -27,7 +30,7 @@
     ## PRODUCTIVITY
     jrnl
 
-    ## LANGUAGE
+    ## SYSTEM LANGUAGES
     nodejs
   ];
 

@@ -11,5 +11,9 @@
     line_break = {
       disabled = true;
     };
+
+    nix_shell = {
+      disabled = true;
+    };
   };
 }

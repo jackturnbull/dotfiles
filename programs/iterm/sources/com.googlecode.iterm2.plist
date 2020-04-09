@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AllowClipboardAccess</key>
+	<true/>
 	<key>AppleAntiAliasingThreshold</key>
 	<integer>1</integer>
 	<key>ApplePressAndHoldEnabled</key>
@@ -589,7 +591,9 @@
 	<key>NSWindow Frame NSNavPanelAutosaveName</key>
 	<string>575 280 799 448 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 850 490 327 0 0 1920 1200 </string>
+	<string>0 839 490 327 0 0 1920 1200 </string>
+	<key>NSWindow Frame iTerm Window 1</key>
+	<string>247 132 490 327 0 0 1920 1200 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1305,7 +1309,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>50628A31-A999-478E-A181-4AB34C7D8283</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>39</integer>
+	<integer>56</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2082,7 +2086,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-03-31T04:10:23Z</date>
+	<date>2020-04-01T04:10:36Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
