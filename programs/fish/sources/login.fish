@@ -3,5 +3,3 @@ fenv source '$HOME/.nix-profile/etc/profile.d/nix.sh'
 set PATH $HOME/.local/bin $PATH
 
 any-nix-shell fish --info-right | source
-
-source (anyenv init -|psub)

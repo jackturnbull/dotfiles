@@ -5,7 +5,7 @@
     add_newline = false;
 
     character = {
-      symbol = "➜";
+      success_symbol = "[➜](bold green)";
     };
 
     line_break = {
@@ -14,6 +14,18 @@
 
     nix_shell = {
       disabled = true;
+    };
+
+    package = {
+      disabled = true;
+    };
+
+    python = {
+      symbol = "";
+    };
+
+    rust = {
+      symbol = "";
     };
   };
 }

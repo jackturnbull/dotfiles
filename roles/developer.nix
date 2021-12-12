@@ -2,13 +2,10 @@
 
 {
   imports = [
-    ../programs/anyenv/sources.nix
     ../programs/base16-shell/sources.nix
     ../programs/brew/sources.nix
     ../programs/fish/sources.nix
     ../programs/iterm/sources.nix
-    ../programs/karabiner/sources.nix
-    ../programs/jrnl/sources.nix
     ../programs/nvim/sources.nix
     ../programs/tmux/sources.nix
   ];
@@ -20,18 +17,26 @@
   home.packages = with pkgs; [
     ## TOOL
     any-nix-shell
-    broot
+    aws
+    cloc
+    dbmate
+    doctl
     exa
+    git-crypt
+    gnupg
+    go-ethereum
     jq
+    neovim
     ripgrep
-    tokei
+    terraform
+    terraform-providers.aws
+    websocat
     yarn
 
-    ## PRODUCTIVITY
-    jrnl
-
     ## SYSTEM LANGUAGES
-    nodejs
+    go
+    nodejs-16_x
+    python39
   ];
 
   home.sessionVariables = {

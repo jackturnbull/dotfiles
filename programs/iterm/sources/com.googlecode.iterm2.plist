@@ -586,14 +586,12 @@
 		<key>TB Is Shown</key>
 		<integer>1</integer>
 	</dict>
-	<key>NSWindow Frame NSColorPanel</key>
-	<string>0 163 224 275 0 0 1920 1177 </string>
 	<key>NSWindow Frame NSNavPanelAutosaveName</key>
-	<string>575 280 799 448 0 0 1920 1177 </string>
+	<string>624 606 799 448 0 0 2048 1257 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 839 490 327 0 0 1920 1200 </string>
+	<string>556 352 490 327 0 0 2048 1280 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>247 132 490 327 0 0 1920 1200 </string>
+	<string>266 148 490 327 0 0 2048 1257 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -807,6 +805,8 @@
 				<key>Red Component</key>
 				<real>1</real>
 			</dict>
+			<key>Blink Allowed</key>
+			<false/>
 			<key>Blinking Cursor</key>
 			<false/>
 			<key>Blur</key>
@@ -1206,7 +1206,7 @@
 				<real>0.0</real>
 			</dict>
 			<key>Minimum Contrast</key>
-			<real>0.33587091619318182</real>
+			<real>0.35400390625</real>
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
@@ -1293,29 +1293,27 @@
 	</array>
 	<key>NoSyncAllAppVersions</key>
 	<array>
-		<string>3.3.9</string>
+		<string>3.3.12</string>
 	</array>
 	<key>NoSyncBFPRecents</key>
 	<array>
+		<string>Menlo</string>
+		<string>Monaco</string>
 		<string>Hack</string>
 	</array>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, 0}, {1920, 1200}}</string>
+		<string>{{0, 0}, {2048, 1280}}</string>
 		<key>topLeft</key>
-		<string>{651, 965}</string>
+		<string>{786, 728}</string>
 	</dict>
 	<key>NoSyncInstallationId</key>
-	<string>50628A31-A999-478E-A181-4AB34C7D8283</string>
+	<string>43820E55-3012-4A04-8237-907D8CD6CF75</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>56</integer>
-	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
-	<true/>
-	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
-	<integer>1</integer>
+	<integer>4</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
-	<real>607493035.28556395</real>
+	<real>622341178.01998496</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
 	<true/>
 	<key>NoSyncRecordedVariables</key>
@@ -1668,7 +1666,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentTab.currentSession.terminalIconName</string>
+				<string>currentTab.currentSession.terminalWindowName</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -1676,7 +1674,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentTab.currentSession.terminalWindowName</string>
+				<string>currentTab.currentSession.terminalIconName</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -1740,7 +1738,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentTab.currentSession.path</string>
+				<string>currentTab.currentSession.commandLine</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -1748,7 +1746,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentTab.currentSession.commandLine</string>
+				<string>currentTab.currentSession.path</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -1807,7 +1805,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentSession.pid</string>
+				<string>currentSession.terminalWindowName</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -1815,7 +1813,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentSession.terminalIconName</string>
+				<string>currentSession.commandLine</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -1847,7 +1845,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentSession.commandLine</string>
+				<string>currentSession.terminalIconName</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -1975,7 +1973,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentSession.terminalWindowName</string>
+				<string>currentSession.pid</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -2041,7 +2039,7 @@
 		</array>
 	</dict>
 	<key>NoSyncTipOfTheDayEligibilityBeganTime</key>
-	<real>607320235.28533494</real>
+	<real>622168378.01981699</real>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -2082,11 +2080,11 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final_new.xml?shard=41</string>
+	<string>https://iterm2.com/appcasts/final_new.xml?shard=42</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-04-01T04:10:36Z</date>
+	<date>2020-09-19T00:38:18Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
@@ -2098,7 +2096,7 @@
 	<key>VisualIndicatorForEsc</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.3.9</string>
+	<string>3.3.12</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>

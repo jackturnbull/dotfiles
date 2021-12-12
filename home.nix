@@ -2,11 +2,11 @@
 
 {
   programs.home-manager.enable = true;
-  home.stateVersion = "19.09";
+  home.stateVersion = "20.09";
 
   imports = [
-   ./machines/atiyah.nix
+   ./machines/brendan.nix
    ./roles/developer.nix
-   ./users/jack.nix
+   ./users/jackturnbull.nix
   ];
 }

@@ -1,3 +1,3 @@
 # Dotfiles
 
-`ln -s /Volumes/Store/code/dotfiles/ ~/.config/nixpkgs`
+`ln -s /Volumes/LTS/code/dotfiles/ ~/.config/nixpkgs`
